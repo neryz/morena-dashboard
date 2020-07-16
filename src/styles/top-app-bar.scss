@@ -1,0 +1,8 @@
+@import '@material/react-top-app-bar/index';
+@import './colors';
+
+.mdc-top-app-bar {
+  @include mdc-top-app-bar-ink-color($primary-color);
+  @include mdc-top-app-bar-fill-color(white);
+  @include mdc-top-app-bar-icon-ink-color($primary-color);
+}

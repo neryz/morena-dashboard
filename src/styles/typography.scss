@@ -1,0 +1,21 @@
+@import '@material/react-typography/index';
+@import './colors';
+
+.drawer-container__title {
+  background-color: $primary-color;
+  padding-left: 15px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: -10px;
+
+  .mdc-typography--subtitle1 {
+    padding-top: 10px;
+    color: white;
+  }
+
+  .mdc-typography--subtitle2 {
+    margin-top: -40px;
+    color: white;
+    padding-bottom: 10px;
+  }
+}

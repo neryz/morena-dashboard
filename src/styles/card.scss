@@ -1,0 +1,36 @@
+@import '@material/react-card/index';
+@import './colors';
+
+.mdc-card {
+  background-color: $primary-color;
+  @include mdc-card-shape-radius(40px, true);
+
+
+  .mdc-card__primary-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    .material-icons {
+      font-size: 5rem;
+      color: white;
+      margin: 20px;
+    }
+
+    .mdc-typography--headline4 {
+      margin: 0;
+      color: white;
+    }
+
+    .mdc-typography--headline5 {
+      margin: 0;
+      color: white;
+    }
+
+    .mdc-typography--headline6 {
+      margin: 0;
+      color: white;
+    }
+  }
+}

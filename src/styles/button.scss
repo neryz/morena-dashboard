@@ -1,0 +1,6 @@
+@import '@material/react-button/index';
+@import './colors';
+
+.mdc-button {
+  @include mdc-button-container-fill-color($primary-color);
+}

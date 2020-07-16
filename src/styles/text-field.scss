@@ -1,0 +1,8 @@
+@import '@material/react-text-field/index';
+@import './colors';
+
+.mdc-text-field {
+  @include mdc-text-field-ink-color($primary-color);
+  @include mdc-text-field-icon-color($primary-color);
+  @include mdc-text-field-label-color($primary-color);
+}
